@@ -193,6 +193,16 @@ export function BrainIcon({ className }) {
   );
 }
 
+export function CalendarIcon({ className }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} {...base}>
+      <rect x="3" y="4.8" width="18" height="16" rx="2.4" />
+      <path d="M3 9.8h18M8 3v3.6M16 3v3.6" />
+      <path d="M7.6 13.4h2M11 13.4h2M14.4 13.4h2M7.6 16.8h2M11 16.8h2" />
+    </svg>
+  );
+}
+
 export function ArrowUpRightIcon({ className }) {
   return (
     <svg viewBox="0 0 24 24" className={className} {...base}>
