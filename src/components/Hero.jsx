@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import {
   ArrowRightIcon,
-  WhatsappIcon,
+  DownloadIcon,
   GithubIcon,
   LinkedinIcon,
   MailIcon,
@@ -81,14 +81,15 @@ export default function Hero() {
               View My Work
               <ArrowRightIcon className="h-4 w-4" />
             </a>
+            {/* Looks like the old CV download, but opens a WhatsApp chat instead. */}
             <a
-              href={whatsappUrl("Hi Mohamed! I came across your portfolio and wanted to say hello.")}
+              href={whatsappUrl("Hi Mohamed! I saw your portfolio — could you share your CV with me?")}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-border bg-card px-6 py-3.5 text-sm font-semibold text-ink transition-colors hover:border-accent hover:text-accent"
             >
-              <WhatsappIcon className="h-4.5 w-4.5" />
-              Say Hi on WhatsApp
+              <DownloadIcon className="h-4 w-4" />
+              Download CV
             </a>
           </div>
 
