@@ -9,10 +9,9 @@ import {
   GithubIcon,
   LinkedinIcon,
 } from "./icons";
+import { whatsappUrl } from "../config";
 
-const WHATSAPP_URL = `https://wa.me/252618777691?text=${encodeURIComponent(
-  "Hi Mohamed, I'd like to talk about a project."
-)}`;
+const WHATSAPP_URL = whatsappUrl("Hi Mohamed, I'd like to talk about a project.");
 
 const DETAILS = [
   { icon: MailIcon, label: "Email", value: "mcqadir90@gmail.com", href: "mailto:mcqadir90@gmail.com" },

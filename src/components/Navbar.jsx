@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { SunIcon, MoonIcon, SendIcon, MenuIcon, XIcon } from "./icons";
+import { whatsappUrl } from "../config";
 
 const LINKS = [
   { id: "home", label: "Home" },
@@ -10,9 +11,7 @@ const LINKS = [
   { id: "contact", label: "Contact" },
 ];
 
-const WHATSAPP_URL = `https://wa.me/252618777691?text=${encodeURIComponent(
-  "Hi Mohamed, I'd like to talk about a project."
-)}`;
+const WHATSAPP_URL = whatsappUrl("Hi Mohamed, I'd like to talk about a project.");
 
 export default function Navbar({ theme, toggleTheme }) {
   const [active, setActive] = useState("home");

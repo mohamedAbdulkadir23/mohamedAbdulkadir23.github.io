@@ -213,6 +213,15 @@ export function GlobeIcon({ className }) {
   );
 }
 
+export function WhatsappIcon({ className }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} {...base}>
+      <path d="M3.5 20.5l1.3-4.5A8.2 8.2 0 1 1 8 19.2l-4.5 1.3Z" />
+      <path d="M9 8.4c.3 0 .5.1.6.4l.6 1.4c.1.3 0 .5-.1.7l-.5.6c-.1.2-.2.4 0 .7a6 6 0 0 0 2.6 2.3c.3.1.5 0 .6-.1l.6-.7c.2-.2.4-.2.6-.1l1.4.7c.3.1.4.3.4.6 0 .8-.6 1.5-1.4 1.6-.4 0-.8 0-1.7-.3a8 8 0 0 1-4.4-4.1c-.4-.9-.4-1.4-.4-1.8a1.8 1.8 0 0 1 1.5-1.9Z" />
+    </svg>
+  );
+}
+
 export function ArrowUpRightIcon({ className }) {
   return (
     <svg viewBox="0 0 24 24" className={className} {...base}>

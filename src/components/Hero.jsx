@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import {
   ArrowRightIcon,
-  DownloadIcon,
+  WhatsappIcon,
   GithubIcon,
   LinkedinIcon,
   MailIcon,
   CodeIcon,
   CheckIcon,
 } from "./icons";
+import { whatsappUrl } from "../config";
 
 const SOCIALS = [
   { label: "GitHub", href: "https://github.com/", icon: GithubIcon },
@@ -81,12 +82,13 @@ export default function Hero() {
               <ArrowRightIcon className="h-4 w-4" />
             </a>
             <a
-              href="/Mohamed_Abdulkadir_CV.pdf"
-              download
+              href={whatsappUrl("Hi Mohamed! I came across your portfolio and wanted to say hello.")}
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-border bg-card px-6 py-3.5 text-sm font-semibold text-ink transition-colors hover:border-accent hover:text-accent"
             >
-              <DownloadIcon className="h-4 w-4" />
-              Download CV
+              <WhatsappIcon className="h-4.5 w-4.5" />
+              Say Hi on WhatsApp
             </a>
           </div>
 
