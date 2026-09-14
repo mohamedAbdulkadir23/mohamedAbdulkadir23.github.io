@@ -203,6 +203,16 @@ export function CalendarIcon({ className }) {
   );
 }
 
+export function GlobeIcon({ className }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} {...base}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3.4 9.2h17.2M3.4 14.8h17.2" />
+      <path d="M12 3c-2.3 2.4-3.5 5.4-3.5 9s1.2 6.6 3.5 9c2.3-2.4 3.5-5.4 3.5-9S14.3 5.4 12 3Z" />
+    </svg>
+  );
+}
+
 export function ArrowUpRightIcon({ className }) {
   return (
     <svg viewBox="0 0 24 24" className={className} {...base}>
