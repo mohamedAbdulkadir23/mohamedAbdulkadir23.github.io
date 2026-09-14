@@ -6,6 +6,18 @@ const TIMELINE = [
   {
     icon: BriefcaseIcon,
     kind: "Work",
+    title: "Freelance Full Stack Developer",
+    org: "Freelance — Remote",
+    period: "2022 – Present",
+    points: [
+      "Build scalable systems for clients, designed to hold up as users and data grow.",
+      "Focus on quality: clean, maintainable code, solid database design and reliable deployments.",
+      "Work directly with clients from requirements through launch and ongoing support.",
+    ],
+  },
+  {
+    icon: BriefcaseIcon,
+    kind: "Work",
     title: "Web Developer & Database Administrator",
     org: "SYD ICT Solutions — Mogadishu, Somalia",
     period: "2023 – July 2026",
